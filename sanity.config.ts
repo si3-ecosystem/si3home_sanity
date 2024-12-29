@@ -39,7 +39,6 @@ export default defineConfig({
         Web3Brand,
         MemberSpotlight,
         PartnerTabHeader,
-        PartnerTabFooter,
         EcosystemSpotlight,
         ourMission,
         onboard,
@@ -61,7 +60,6 @@ export default defineConfig({
       SiHerCoExplorer.name,
       onboard.name,
       register.name,
-      PartnerTabFooter.name,
       PartnerTabHeader.name
     ]),
     visionTool(),

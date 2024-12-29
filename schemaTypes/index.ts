@@ -18,7 +18,7 @@ import spotlightList from '../components/documents/spotlightList'
 import Sihercoexplorer from '../components/documents/Sihercoexplorer'
 import EcosystemSpotlight from '../components/documents/EcosystemSpotlight'
 import ourMission from '../components/documents/ourMission'
-import testimonials from '../components/documents/testimonials'
+import testimonials, { partnerTestimonials } from '../components/documents/testimonials'
 import onboard from '../components/documents/onboard'
 import pricing from '../components/documents/pricing'
 import register from '../components/documents/register'
@@ -56,6 +56,7 @@ export const schemaTypes = [
   PartnerTabHeader,
   pricing,
   Partners,
+  partnerTestimonials,
   //   post,
   //   author,
   //   category,

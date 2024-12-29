@@ -99,7 +99,6 @@ export const PartnerTabPrograms = defineType({
       name: 'link',
       title: 'Event URL',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
         name: 'banner',
