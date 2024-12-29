@@ -54,12 +54,18 @@ export const PartnerTabFooter = defineType({
       title: 'Action URL',
       type: 'string',
     }),
+    defineField({
+      name: 'caption',
+      title: 'Caption',
+      type: 'string',
+    }),
 
   ],
   preview: {
     select: {
       title: 'title',
       subtitle: 'subtitle',
+      caption: 'caption',
     },
   },
 })
