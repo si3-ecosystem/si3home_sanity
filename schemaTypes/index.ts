@@ -15,6 +15,7 @@ import Web3Brand from '../components/documents/Web3Brand'
 import Teammembers from '../components/documents/Teammembers'
 import MemberSpotlight from '../components/documents/MemberSpotlight'
 import spotlightList from '../components/documents/spotlightList'
+import Sihercoexplorer from '../components/documents/Sihercoexplorer'
 import EcosystemSpotlight from '../components/documents/EcosystemSpotlight'
 import ourMission from '../components/documents/ourMission'
 import testimonials from '../components/documents/testimonials'
@@ -25,6 +26,8 @@ import cards from './cards'
 import memberPolicy from './memberPolicy'
 import privacyPolicy from './privacyPolicy'
 import communityButton from './communityButton'
+import Partners from '../components/documents/Partners'
+import { PartnerTabFooter, PartnerTabPrograms, PartnerTabHeader } from '../components/documents/partners-tab-dta';
 
 export const schemaTypes = [
   Utils,
@@ -38,6 +41,7 @@ export const schemaTypes = [
   EducationalProgrammingEvents,
   register,
   Builders,
+  Sihercoexplorer,
   button,
   ButtonPreview,
   Teammembers,
@@ -47,7 +51,11 @@ export const schemaTypes = [
   ourMission,
   testimonials,
   onboard,
+  PartnerTabPrograms,
+  PartnerTabFooter,
+  PartnerTabHeader,
   pricing,
+  Partners,
   //   post,
   //   author,
   //   category,

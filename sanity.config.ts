@@ -9,15 +9,18 @@ import About from './components/documents/About'
 import GrantingAccess from './components/documents/GrantingAccess'
 import EducationalProgramming from './components/documents/EducationalProgramming'
 import Sihercoactive from './components/documents/Sihercoactive'
+import SiHerCoExplorer from './components/documents/Sihercoexplorer'
 import Web3Brand from './components/documents/Web3Brand'
 import {muxInput} from 'sanity-plugin-mux-input'
 import MemberSpotlight from './components/documents/MemberSpotlight'
 import EcosystemSpotlight from './components/documents/EcosystemSpotlight'
 import ourMission from './components/documents/ourMission'
 import onboard from './components/documents/onboard'
-import pricing from './components/documents/pricing'
-import myLogo from './components/shared/Logo'
+// import pricing from './components/documents/pricing'
+// import myLogo from './components/shared/Logo'
 import register from './components/documents/register'
+import Partners from './components/documents/Partners'
+import { PartnerTabFooter, PartnerTabHeader } from './components/documents/partners-tab-dta'
 
 export default defineConfig({
   name: 'default',
@@ -35,9 +38,12 @@ export default defineConfig({
         Sihercoactive,
         Web3Brand,
         MemberSpotlight,
+        PartnerTabHeader,
+        PartnerTabFooter,
         EcosystemSpotlight,
         ourMission,
         onboard,
+        SiHerCoExplorer,
         register,
       ]),
     }),
@@ -52,8 +58,11 @@ export default defineConfig({
       MemberSpotlight.name,
       EcosystemSpotlight.name,
       ourMission.name,
+      SiHerCoExplorer.name,
       onboard.name,
       register.name,
+      PartnerTabFooter.name,
+      PartnerTabHeader.name
     ]),
     visionTool(),
     muxInput(),
