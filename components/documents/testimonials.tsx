@@ -99,19 +99,16 @@ export default defineType({
       name: 'name',
       title: 'Name',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'title',
       title: 'Title',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'companyName',
       title: 'Company Name',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'link',
