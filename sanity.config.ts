@@ -19,8 +19,9 @@ import onboard from './components/documents/onboard'
 // import pricing from './components/documents/pricing'
 // import myLogo from './components/shared/Logo'
 import register from './components/documents/register'
-import Partners from './components/documents/Partners'
-import { PartnerTabFooter, PartnerTabHeader } from './components/documents/partners-tab-dta'
+
+import {  PartnerTabHeader } from './components/documents/partners-tab-dta'
+import { JoinBuildersTab,JoinExplorerTab,JoinLeadersTab } from './components/documents/join'
 
 export default defineConfig({
   name: 'default',
@@ -42,6 +43,9 @@ export default defineConfig({
         EcosystemSpotlight,
         ourMission,
         onboard,
+        JoinBuildersTab,
+        JoinExplorerTab,
+        JoinLeadersTab,
         SiHerCoExplorer,
         register,
       ]),
@@ -58,6 +62,9 @@ export default defineConfig({
       EcosystemSpotlight.name,
       ourMission.name,
       SiHerCoExplorer.name,
+      JoinBuildersTab.name,
+      JoinExplorerTab.name,
+      JoinLeadersTab.name,
       onboard.name,
       register.name,
       PartnerTabHeader.name

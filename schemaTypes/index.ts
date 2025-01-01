@@ -28,6 +28,7 @@ import privacyPolicy from './privacyPolicy'
 import communityButton from './communityButton'
 import Partners from '../components/documents/Partners'
 import { PartnerTabFooter, PartnerTabPrograms, PartnerTabHeader } from '../components/documents/partners-tab-dta';
+import { JoinBuildersTab, JoinExplorerTab, JoinLeadersTab } from '../components/documents/join'
 
 export const schemaTypes = [
   Utils,
@@ -57,9 +58,9 @@ export const schemaTypes = [
   pricing,
   Partners,
   partnerTestimonials,
-  //   post,
-  //   author,
-  //   category,
+  JoinBuildersTab,
+  JoinExplorerTab,
+  JoinLeadersTab,
   blockContent,
   cards,
   communityButton,
