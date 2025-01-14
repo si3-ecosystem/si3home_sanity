@@ -29,6 +29,11 @@ import communityButton from './communityButton'
 import Partners from '../components/documents/Partners'
 import { PartnerTabFooter, PartnerTabPrograms, PartnerTabHeader } from '../components/documents/partners-tab-dta';
 import { JoinBuildersTab, JoinExplorerTab, JoinLeadersTab } from '../components/documents/join'
+import { explorerVideoCategories, explorerVideos } from '../components/documents/explorer-videos'
+import { programEvents, programPosts, programReplays } from '../components/documents/programs'
+import { educationalReplays, events, posts } from '../components/documents/coActiveSchemas'
+import { members } from '../components/documents/members'
+import { FixxEducationalReplays, FixxEvents, fixxPosts } from '../components/documents/fixxSchema'
 
 export const schemaTypes = [
   Utils,
@@ -61,6 +66,20 @@ export const schemaTypes = [
   JoinBuildersTab,
   JoinExplorerTab,
   JoinLeadersTab,
+  explorerVideoCategories,
+  explorerVideos,
+  posts,
+  events,
+  educationalReplays,
+
+  fixxPosts,
+  FixxEvents,
+  FixxEducationalReplays,
+
+  programPosts,
+  programEvents,
+  programReplays,
+  members,
   blockContent,
   cards,
   communityButton,
