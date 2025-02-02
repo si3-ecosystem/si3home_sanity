@@ -6,7 +6,7 @@ import Emoji from '../shared/Emoji'
 
 export default defineType({
   name: 'utils',
-  title: 'Seo & Logo',
+  title: 'Footer & SEO',
   type: 'document',
   icon: () => <IoSettingsOutline />,
   groups: [
