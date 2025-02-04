@@ -4,7 +4,7 @@ import {schemaTypes} from './schemaTypes'
 import {singletonPlugin, pageStructure} from './plugins/settings'
 import Utils from './components/documents/Utils'
 import {deskTool} from 'sanity/desk'
-import Hero from './components/documents/Hero'
+
 import About from './components/documents/About'
 import GrantingAccess from './components/documents/GrantingAccess'
 import EducationalProgramming from './components/documents/EducationalProgramming'
@@ -32,7 +32,6 @@ export default defineConfig({
     deskTool({
       structure: pageStructure([
         Utils,
-        Hero,
         About,
         GrantingAccess,
         EducationalProgramming,
@@ -52,7 +51,7 @@ export default defineConfig({
     }),
     singletonPlugin([
       Utils.name,
-      Hero.name,
+      
       About.name,
       GrantingAccess.name,
       EducationalProgramming.name,

@@ -32,7 +32,6 @@ import { JoinBuildersTab, JoinExplorerTab, JoinLeadersTab } from '../components/
 
 export const schemaTypes = [
   Utils,
-  Hero,
   About,
   GrantingAccess,
   EducationalProgramming,
