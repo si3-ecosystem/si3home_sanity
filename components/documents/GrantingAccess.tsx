@@ -3,7 +3,7 @@ import {BsCalendar4Event} from 'react-icons/bs'
 
 export default defineType({
   name: 'grantingAccess',
-  title: 'Granting Access',
+  title: 'Si Her Summit',
   type: 'document',
   icon: () => <BsCalendar4Event />,
 
