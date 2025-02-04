@@ -3,7 +3,6 @@ import blockContent from './blockContent'
 import Utils from '../components/documents/Utils'
 import Hero from '../components/documents/Hero'
 import button from '../components/objects/button'
-import About from '../components/documents/About'
 import ButtonPreview from '../components/shared/ButtonPreview'
 import GrantingAccess from '../components/documents/GrantingAccess'
 import Builders from '../components/documents/Builders'
@@ -32,7 +31,6 @@ import { JoinBuildersTab, JoinExplorerTab, JoinLeadersTab } from '../components/
 
 export const schemaTypes = [
   Utils,
-  About,
   GrantingAccess,
   EducationalProgramming,
   Presenters,
