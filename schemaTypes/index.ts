@@ -34,6 +34,7 @@ import { programEvents, programPosts, programReplays } from '../components/docum
 import { educationalReplays, events, posts } from '../components/documents/coActiveSchemas'
 import { members } from '../components/documents/members'
 import { FixxEducationalReplays, FixxEvents, fixxPosts } from '../components/documents/fixxSchema'
+import { diversityTracker } from '../components/documents/diversity-tracker'
 
 export const schemaTypes = [
   Utils,
@@ -84,5 +85,7 @@ export const schemaTypes = [
   cards,
   communityButton,
   memberPolicy,
-  privacyPolicy
+  privacyPolicy,
+
+  diversityTracker
 ]
