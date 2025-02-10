@@ -15,6 +15,12 @@ export default defineType({
       validation: (rule) => rule.required(),
     }),
     defineField({
+      name: 'type',
+      title: 'Partner Type',
+      type: 'string',
+      validation: (rule) => rule.required(),
+    }),
+    defineField({
         name: 'logo',
         title: 'Logo',
         type: 'image',
