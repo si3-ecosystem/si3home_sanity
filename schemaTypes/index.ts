@@ -1,9 +1,9 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import blockContent from './blockContent'
 
 import Utils from '../components/documents/Utils'
 import Hero from '../components/documents/Hero'
 import button from '../components/objects/button'
-import About from '../components/documents/About'
 import ButtonPreview from '../components/shared/ButtonPreview'
 import GrantingAccess from '../components/documents/GrantingAccess'
 import Builders from '../components/documents/Builders'
@@ -14,7 +14,7 @@ import Sihercoactive from '../components/documents/Sihercoactive'
 import Web3Brand from '../components/documents/Web3Brand'
 import Teammembers from '../components/documents/Teammembers'
 import MemberSpotlight from '../components/documents/MemberSpotlight'
-import spotlightList from '../components/documents/spotlightList'
+import spotlightList from '../components/documents/SpotlightList'
 import Sihercoexplorer from '../components/documents/Sihercoexplorer'
 import EcosystemSpotlight from '../components/documents/EcosystemSpotlight'
 import ourMission from '../components/documents/ourMission'
@@ -38,8 +38,6 @@ import { diversityTracker } from '../components/documents/diversity-tracker'
 
 export const schemaTypes = [
   Utils,
-  Hero,
-  About,
   GrantingAccess,
   EducationalProgramming,
   Presenters,
@@ -67,20 +65,6 @@ export const schemaTypes = [
   JoinBuildersTab,
   JoinExplorerTab,
   JoinLeadersTab,
-  explorerVideoCategories,
-  explorerVideos,
-  posts,
-  events,
-  educationalReplays,
-
-  fixxPosts,
-  FixxEvents,
-  FixxEducationalReplays,
-
-  programPosts,
-  programEvents,
-  programReplays,
-  members,
   blockContent,
   cards,
   communityButton,

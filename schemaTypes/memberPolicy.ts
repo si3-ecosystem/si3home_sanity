@@ -23,5 +23,4 @@ export default defineType({
         by: [
           {field: 'releaseDate', direction: 'desc'}
         ]}]
-   
   })

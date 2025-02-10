@@ -6,7 +6,7 @@ import Emoji from '../shared/Emoji'
 
 export default defineType({
   name: 'utils',
-  title: 'Seo & Logo',
+  title: 'Footer & SEO',
   type: 'document',
   icon: () => <IoSettingsOutline />,
   groups: [
@@ -33,7 +33,7 @@ export default defineType({
     }),
     defineField({
       name: 'stayConnected',
-      title: 'Stay Connected Url',
+      title: 'Gaia Digital ID',
       type: 'string',
       group: 'content',
     }),
@@ -51,13 +51,13 @@ export default defineType({
     }),
     defineField({
       name: 'other',
-      title: 'Common Ground',
+      title: 'EKollab',
       type: 'string',
       group: 'content',
     }),
     defineField({
       name: 'warpcast',
-      title: 'Warpcast',
+      title: 'SolApp',
       type: 'string',
       group: 'content',
     }),
