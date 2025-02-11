@@ -14,7 +14,6 @@ import MemberSpotlight from './components/documents/MemberSpotlight'
 import EcosystemSpotlight from './components/documents/EcosystemSpotlight'
 // import pricing from './components/documents/pricing'
 // import myLogo from './components/shared/Logo'
-import register from './components/documents/register'
 
 import {  PartnerTabHeader } from './components/documents/partners-tab-dta'
 import { JoinBuildersTab,JoinExplorerTab,JoinLeadersTab } from './components/documents/join'
@@ -39,7 +38,6 @@ export default defineConfig({
         JoinExplorerTab,
         JoinLeadersTab,
         SiHerCoExplorer,
-        register,
       ]),
     }),
     singletonPlugin([
@@ -54,7 +52,6 @@ export default defineConfig({
       JoinBuildersTab.name,
       JoinExplorerTab.name,
       JoinLeadersTab.name,
-      register.name,
       PartnerTabHeader.name
     ]),
     visionTool(),

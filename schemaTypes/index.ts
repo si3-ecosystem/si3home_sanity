@@ -17,7 +17,6 @@ import Sihercoexplorer from '../components/documents/Sihercoexplorer'
 import EcosystemSpotlight from '../components/documents/EcosystemSpotlight'
 import testimonials, { partnerTestimonials } from '../components/documents/testimonials'
 import pricing from '../components/documents/pricing'
-import register from '../components/documents/register'
 import cards from './cards'
 import memberPolicy from './memberPolicy'
 import privacyPolicy from './privacyPolicy'
@@ -39,7 +38,6 @@ export const schemaTypes = [
   Presenters,
   Web3Brand,
   EducationalProgrammingEvents,
-  register,
   Builders,
   Sihercoexplorer,
   button,
