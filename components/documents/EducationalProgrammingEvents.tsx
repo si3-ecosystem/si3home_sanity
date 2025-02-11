@@ -3,7 +3,7 @@ import {MdOutlineEmojiEvents} from 'react-icons/md'
 
 export default defineType({
   name: 'educationalProgrammingEvents',
-  title: '+ming Events',
+  title: 'Si Her Programming Details ',
   type: 'document',
   icon: () => <MdOutlineEmojiEvents />,
 
