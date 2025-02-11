@@ -16,7 +16,6 @@ import spotlightList from '../components/documents/SpotlightList'
 import Sihercoexplorer from '../components/documents/Sihercoexplorer'
 import EcosystemSpotlight from '../components/documents/EcosystemSpotlight'
 import testimonials, { partnerTestimonials } from '../components/documents/testimonials'
-import pricing from '../components/documents/pricing'
 import cards from './cards'
 import memberPolicy from './memberPolicy'
 import privacyPolicy from './privacyPolicy'
@@ -50,7 +49,6 @@ export const schemaTypes = [
   PartnerTabPrograms,
   PartnerTabFooter,
   PartnerTabHeader,
-  pricing,
   Partners,
   partnerTestimonials,
   JoinBuildersTab,
