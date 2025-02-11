@@ -2,7 +2,7 @@ import {defineType, defineField} from 'sanity'
 
 export default defineType({
   name: 'sihercoexplorer',
-  title: 'Si Her Co-Explorer',
+  title: 'Si Her Explorer Home Page Intro ',
   type: 'document',
   fields: [
     defineField({
