@@ -16,7 +16,6 @@ import spotlightList from '../components/documents/SpotlightList'
 import Sihercoexplorer from '../components/documents/Sihercoexplorer'
 import EcosystemSpotlight from '../components/documents/EcosystemSpotlight'
 import testimonials, { partnerTestimonials } from '../components/documents/testimonials'
-import onboard from '../components/documents/onboard'
 import pricing from '../components/documents/pricing'
 import register from '../components/documents/register'
 import cards from './cards'
@@ -50,7 +49,6 @@ export const schemaTypes = [
   EcosystemSpotlight,
   spotlightList,
   testimonials,
-  onboard,
   PartnerTabPrograms,
   PartnerTabFooter,
   PartnerTabHeader,

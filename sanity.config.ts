@@ -12,7 +12,6 @@ import Web3Brand from './components/documents/Web3Brand'
 import {muxInput} from 'sanity-plugin-mux-input'
 import MemberSpotlight from './components/documents/MemberSpotlight'
 import EcosystemSpotlight from './components/documents/EcosystemSpotlight'
-import onboard from './components/documents/onboard'
 // import pricing from './components/documents/pricing'
 // import myLogo from './components/shared/Logo'
 import register from './components/documents/register'
@@ -36,7 +35,6 @@ export default defineConfig({
         MemberSpotlight,
         PartnerTabHeader,
         EcosystemSpotlight,
-        onboard,
         JoinBuildersTab,
         JoinExplorerTab,
         JoinLeadersTab,
@@ -56,7 +54,6 @@ export default defineConfig({
       JoinBuildersTab.name,
       JoinExplorerTab.name,
       JoinLeadersTab.name,
-      onboard.name,
       register.name,
       PartnerTabHeader.name
     ]),
