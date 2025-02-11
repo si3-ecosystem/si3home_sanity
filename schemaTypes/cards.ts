@@ -15,7 +15,7 @@ export default defineType({
     defineField({
       name: "communityLogo",
       type: "image",
-      title: "Community Logo",
+      title: "Community Logos",
       options:
         {
           accept: 'image/png'
