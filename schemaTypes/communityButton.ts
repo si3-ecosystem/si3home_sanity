@@ -3,7 +3,7 @@ import { defineType, defineField } from "sanity";
 export default defineType({
   name: "communityButton",
   type: "document",
-  title: "Community Button",
+  title: "Community CTA",
   fields: [
     defineField({
       name: 'cta',
