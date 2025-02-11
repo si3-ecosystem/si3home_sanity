@@ -3,7 +3,7 @@ import {FaPersonRays} from 'react-icons/fa6'
 
 export default defineType({
   name: 'presenters',
-  title: 'Presenters (Event Speakers)',
+  title: 'Si Her Programming Presenters',
   type: 'document',
   icon: () => <FaPersonRays />,
 
