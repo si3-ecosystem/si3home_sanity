@@ -2,7 +2,7 @@ import {defineType, defineField} from 'sanity'
 
 export default defineType({
   name: 'spotlightList',
-  title: 'Spotlight List (Education from industry leaders)',
+  title: 'Explorers Content List',
   type: 'document',
   fields: [
     defineField({
