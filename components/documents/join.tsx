@@ -4,7 +4,7 @@ import {IoIosInformationCircleOutline} from 'react-icons/io'
 
 export const JoinExplorerTab = defineType({
   name: 'joinExplorers',
-  title: 'Explorer Join Tab',
+  title: 'Explorers Onboard CTA',
   type: 'document',
   icon: () => <IoIosInformationCircleOutline />,
 
