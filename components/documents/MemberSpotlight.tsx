@@ -3,7 +3,7 @@ import {FaUsersViewfinder} from 'react-icons/fa6'
 
 export default defineType({
   name: 'memberSpotlight',
-  title: 'Co-Activator Spotlight',
+  title: 'Si Her Leadership Sites',
   type: 'document',
   icon: () => <FaUsersViewfinder />,
 
