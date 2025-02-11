@@ -3,7 +3,7 @@ import {MdOutlineVideoCameraFront} from 'react-icons/md'
 
 export default defineType({
   name: 'web3brand',
-  title: 'Web3 Brand',
+  title: 'Si Her Web3 Site',
   type: 'document',
   icon: () => <MdOutlineVideoCameraFront />,
 
