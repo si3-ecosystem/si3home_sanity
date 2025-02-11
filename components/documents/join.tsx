@@ -43,7 +43,7 @@ export const JoinExplorerTab = defineType({
 
 export const JoinLeadersTab = defineType({
   name: 'joinLeaders',
-  title: 'Leader Join Tab',
+  title: 'Leaders Onboard CTA',
   type: 'document',
   icon: () => <IoIosInformationCircleOutline />,
 
