@@ -3,7 +3,7 @@ import {GrWorkshop} from 'react-icons/gr'
 
 export default defineType({
   name: 'educationalProgramming',
-  title: 'Educational Programming',
+  title: 'Si Her Programming Header',
   type: 'document',
   icon: () => <GrWorkshop />,
 
