@@ -4,7 +4,7 @@ import {IoIosInformationCircleOutline} from 'react-icons/io'
 
 export const PartnerTabHeader = defineType({
   name: 'partnersTabHeader',
-  title: 'Partners Tab Header',
+  title: 'Partner Header Copy',
   type: 'document',
   icon: () => <IoIosInformationCircleOutline />,
 
