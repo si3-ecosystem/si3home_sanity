@@ -3,7 +3,7 @@ import {SiArkecosystem} from 'react-icons/si'
 
 export default defineType({
   name: 'ecosystemSpotlight',
-  title: 'Ecosystem Spotlight',
+  title: 'Si Her Explorers Content',
   type: 'document',
   icon: () => <SiArkecosystem />,
 
