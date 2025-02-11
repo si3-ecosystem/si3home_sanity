@@ -10,7 +10,6 @@ import Builders from '../components/documents/Builders'
 import EducationalProgramming from '../components/documents/EducationalProgramming'
 import EducationalProgrammingEvents from '../components/documents/EducationalProgrammingEvents'
 import Presenters from '../components/documents/Presenters'
-import Sihercoactive from '../components/documents/Sihercoactive'
 import Web3Brand from '../components/documents/Web3Brand'
 import Teammembers from '../components/documents/Teammembers'
 import MemberSpotlight from '../components/documents/MemberSpotlight'
@@ -41,7 +40,6 @@ export const schemaTypes = [
   GrantingAccess,
   EducationalProgramming,
   Presenters,
-  Sihercoactive,
   Web3Brand,
   EducationalProgrammingEvents,
   register,

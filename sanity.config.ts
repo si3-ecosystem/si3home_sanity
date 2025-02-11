@@ -6,7 +6,7 @@ import Utils from './components/documents/Utils'
 import {deskTool} from 'sanity/desk'
 import GrantingAccess from './components/documents/GrantingAccess'
 import EducationalProgramming from './components/documents/EducationalProgramming'
-import Sihercoactive from './components/documents/Sihercoactive'
+
 import SiHerCoExplorer from './components/documents/Sihercoexplorer'
 import Web3Brand from './components/documents/Web3Brand'
 import {muxInput} from 'sanity-plugin-mux-input'
@@ -32,7 +32,7 @@ export default defineConfig({
         Utils,
         GrantingAccess,
         EducationalProgramming,
-        Sihercoactive,
+      
         Web3Brand,
         MemberSpotlight,
         PartnerTabHeader,
@@ -50,7 +50,6 @@ export default defineConfig({
       Utils.name,
       GrantingAccess.name,
       EducationalProgramming.name,
-      Sihercoactive.name,
       Web3Brand.name,
       MemberSpotlight.name,
       EcosystemSpotlight.name,
