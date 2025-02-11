@@ -2,7 +2,6 @@
 import blockContent from './blockContent'
 
 import Utils from '../components/documents/Utils'
-import Hero from '../components/documents/Hero'
 import button from '../components/objects/button'
 import ButtonPreview from '../components/shared/ButtonPreview'
 import GrantingAccess from '../components/documents/GrantingAccess'
@@ -16,7 +15,6 @@ import MemberSpotlight from '../components/documents/MemberSpotlight'
 import spotlightList from '../components/documents/SpotlightList'
 import Sihercoexplorer from '../components/documents/Sihercoexplorer'
 import EcosystemSpotlight from '../components/documents/EcosystemSpotlight'
-import ourMission from '../components/documents/ourMission'
 import testimonials, { partnerTestimonials } from '../components/documents/testimonials'
 import onboard from '../components/documents/onboard'
 import pricing from '../components/documents/pricing'
@@ -51,7 +49,6 @@ export const schemaTypes = [
   MemberSpotlight,
   EcosystemSpotlight,
   spotlightList,
-  ourMission,
   testimonials,
   onboard,
   PartnerTabPrograms,
