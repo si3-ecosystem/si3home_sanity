@@ -13,7 +13,6 @@ export const JoinExplorerTab = defineType({
       name: 'title',
       title: 'Title',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'btnTitle',
@@ -53,7 +52,6 @@ export const JoinLeadersTab = defineType({
       name: 'title',
       title: 'Title',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'btnTitle',
@@ -92,7 +90,6 @@ export const JoinBuildersTab = defineType({
       name: 'title',
       title: 'Title',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'btnTitle',

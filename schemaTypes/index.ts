@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import blockContent from './blockContent'
 
 import Utils from '../components/documents/Utils'
@@ -28,6 +29,12 @@ import communityButton from './communityButton'
 import Partners from '../components/documents/Partners'
 import { PartnerTabFooter, PartnerTabPrograms, PartnerTabHeader } from '../components/documents/partners-tab-dta';
 import { JoinBuildersTab, JoinExplorerTab, JoinLeadersTab } from '../components/documents/join'
+import { explorerVideoCategories, explorerVideos } from '../components/documents/explorer-videos'
+import { programEvents, programPosts, programReplays } from '../components/documents/programs'
+import { educationalReplays, events, posts } from '../components/documents/coActiveSchemas'
+import { members } from '../components/documents/members'
+import { FixxEducationalReplays, FixxEvents, fixxPosts } from '../components/documents/fixxSchema'
+import { diversityTracker } from '../components/documents/diversity-tracker'
 
 export const schemaTypes = [
   Utils,
@@ -62,5 +69,7 @@ export const schemaTypes = [
   cards,
   communityButton,
   memberPolicy,
-  privacyPolicy
+  privacyPolicy,
+
+  diversityTracker
 ]
