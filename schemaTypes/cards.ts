@@ -32,6 +32,7 @@ export default defineType({
       initialValue: 'Canada',
       options: {
         list: [
+          {title: 'Global', value: 'Global'},
           {title: 'Canada', value: 'Canada'},
           {title: 'U.S.A', value: 'U.S.A'},
           {title: 'LATAM', value: 'LATAM'},
@@ -47,6 +48,7 @@ export default defineType({
       initialValue: 'Education',
       options: {
         list: [
+          {title: 'Media', value: 'Media'},
           {title: 'Education', value: 'Education'},
           {title: 'Regional', value: 'Regional'},
           {title: 'NFT Collections', value: 'NFT Collection'},
