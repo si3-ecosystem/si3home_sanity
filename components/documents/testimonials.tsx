@@ -118,6 +118,21 @@ export default defineType({
           scheme: ['http', 'https'],
         }),
     }),
+    defineField({
+      name: 'companyLogo',
+      title: 'Company logo',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+      fields: [
+        {
+          name: 'alt',
+          type: 'string',
+          title: 'Alternative text',
+        },
+      ],
+    }),
   ],
   preview: {
     select: {
