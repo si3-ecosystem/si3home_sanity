@@ -13,6 +13,13 @@ export default defineType({
       description: 'Whether this card is published or not.',
     },
     defineField({
+      name: 'order',
+      title: 'Order',
+      type: 'number',
+      description: 'Controls the display order of the cards.',
+    }),
+
+    defineField({
       name: 'communityLogo',
       type: 'image',
       title: 'Community Logos',
